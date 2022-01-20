@@ -1,1 +1,1 @@
-# JHawk_Statsheet
+A web application to display stats and scores for the U10 Jackson JHawks select baseball team.
