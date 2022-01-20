@@ -1,8 +1,11 @@
 import React from 'react'
+import Players from './components/Players/Players';
 
 function App() {
   return (
-    <h1>Schedule</h1>
+    <div>
+      <Players />
+    </div>
   );
 }
 
