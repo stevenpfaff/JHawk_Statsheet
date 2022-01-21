@@ -68,14 +68,14 @@ function Players() {
                             <td>{player.name}</td>
                             <td>{player.ip}</td>
                             <td>{player.er}</td>
-                            <td>{player.era}</td>
-                            <td>.{player.bbs}</td>
+                            <td>.{player.era}</td>
+                            <td>{player.bbs}</td>
                             <td>{player.ks}</td>
-                            <td>{player.whip}</td>
+                            <td>.{player.whip}</td>
                             <td>{player.pt}</td>
-                            <td>.{player.balls}</td>
+                            <td>{player.balls}</td>
                             <td>{player.strikes}</td>
-                            <td>{player.fip}</td>
+                            <td>.{player.fip}</td>
                         </tr>
                     ))}
                 </tbody>

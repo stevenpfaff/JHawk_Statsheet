@@ -1,12 +1,17 @@
 import React from 'react'
+import { Route } from 'react-router-dom'
 import Players from './components/Players/Players';
+import Team from './components/Team/Team';
+import Tourneys from './components/Tournaments/Tournaments';
 import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
     <div>
       <NavBar />
-      <Players />
+      <Route path="/Tournaments" exact component={Tourneys} />
+      <Route path="/Players" exact component={Players} />
+      <Route path="/Team" exact component={Team} />
     </div>
   );
 }

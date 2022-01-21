@@ -18,7 +18,7 @@ function NavBar(props) {
                         <Nav.Link href="/Tournaments">Tournaments</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="/Teams">Team Stats</Nav.Link>
+                        <Nav.Link href="/Team">Team Stats</Nav.Link>
                         <Nav.Link href="/Players">Player Stats</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
