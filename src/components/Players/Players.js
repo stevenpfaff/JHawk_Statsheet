@@ -10,7 +10,7 @@ function Players() {
             <Table striped bordered hover>
                 <thead>
                     <tr>
-                        <th>Name</th>
+                        <th>Player</th>
                         <th>Games</th>
                         <th>ABs</th>
                         <th>Hits</th>
@@ -49,7 +49,7 @@ function Players() {
             <Table striped bordered hover>
                 <thead>
                     <tr>
-                        <th>Name</th>
+                        <th>Player</th>
                         <th>IP</th>
                         <th>ER's</th>
                         <th>ERA</th>
