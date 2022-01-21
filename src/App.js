@@ -12,7 +12,7 @@ function App() {
     <div>
       <NavBar />
       <Route path="/Tournaments" exact component={Tourneys} />
-      <Route path="/Schedule" exact component={Schedule} />
+      <Route path="/" exact component={Schedule} />
       <Route path="/Games" exact component={Games} />
       <Route path="/Players" exact component={Players} />
       <Route path="/Team" exact component={Team} />
