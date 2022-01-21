@@ -4,9 +4,9 @@ import players from '../../Data/players.json'
 
 function Players() {
     return (
-        <div>
+        <div style={{ marginRight: "15%", marginLeft: "15%", marginBottom: "10%" }} >
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <h1>Batting Stats</h1>
+            <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Batting Stats</h1>
             <Table striped bordered hover>
                 <thead>
                     <tr>
@@ -45,7 +45,7 @@ function Players() {
                     ))}
                 </tbody>
             </Table>
-            <h1>Pitching Stats</h1>
+            <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Pitching Stats</h1>
             <Table striped bordered hover>
                 <thead>
                     <tr>
