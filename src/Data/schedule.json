@@ -1,9 +1,114 @@
 [
     {
-        "date": "TBD",
+        "date": "May 2nd",
         "time": "TBD",
         "location": "TBD",
-        "away_team": "TBD",
-        "home_team": "TBD"
+        "away_team": "J-Hawks",
+        "home_team": "Richfield"
+    },
+    {
+        "date": "May 3rd",
+        "time": "TBD",
+        "location": "Jackson Town Hall",
+        "away_team": "MBA",
+        "home_team": "J-Hawks"
+    },
+    {
+        "date": "May 10th",
+        "time": "TBD",
+        "location": "Jackson Town Hall",
+        "away_team": "Port Washington",
+        "home_team": "J-Hawks"
+    },
+    {
+        "date": "May 17th",
+        "time": "TBD",
+        "location": "Jackson Town Hall",
+        "away_team": "MBA",
+        "home_team": "Richfield"
+    },
+    {
+        "date": "May 19th",
+        "time": "TBD",
+        "location": "TBD",
+        "away_team": "J-Hawks",
+        "home_team": "Hartford"
+    },
+    {
+        "date": "May 23rd",
+        "time": "TBD",
+        "location": "Jackson Town Hall",
+        "away_team": "Kettle Moraine Jr. Chargers",
+        "home_team": "J-Hawks"
+    },
+    {
+        "date": "May 31st",
+        "time": "TBD",
+        "location": "TBD",
+        "away_team": "J-Hawks",
+        "home_team": "Mequon"
+    },
+    {
+        "date": "June 7th",
+        "time": "TBD",
+        "location": "Jackson Town Hall",
+        "away_team": "Hartford",
+        "home_team": "J-Hawks"
+    },
+    {
+        "date": "June 9th",
+        "time": "TBD",
+        "location": "TBD",
+        "away_team": "J-Hawks",
+        "home_team": "Menomonee Falls"
+    },
+    {
+        "date": "June 10th",
+        "time": "TBD",
+        "location": "TBD",
+        "away_team": "J-Hawks",
+        "home_team": "Glendale"
+    },
+    {
+        "date": "June 13th",
+        "time": "TBD",
+        "location": "Jackson Town Hall",
+        "away_team": "Mequon",
+        "home_team": "J-Hawks"
+    },
+    {
+        "date": "June 21st",
+        "time": "TBD",
+        "location": "Jackson Town Hall",
+        "away_team": "MBA",
+        "home_team": "J-Hawks"
+    },
+    {
+        "date": "June 23rd",
+        "time": "TBD",
+        "location": "Kettle Moraine High School",
+        "away_team": "J-Hawks",
+        "home_team": "Kettle Moraine Jr. Chargers"
+    },
+    {
+        "date": "June 27th",
+        "time": "TBD",
+        "location": "Jackson Town Hall",
+        "away_team": "Menomonee Falls",
+        "home_team": "J-Hawks"
+    },
+    {
+        "date": "June 30th",
+        "time": "TBD",
+        "location": "TBD",
+        "away_team": "J-Hawks",
+        "home_team": "Port Washington"
+    },
+    {
+        "date": "July 5th",
+        "time": "TBD",
+        "location": "Jackson Town Hall",
+        "away_team": "Glendale",
+        "home_team": "J-Hawks"
     }
 ]

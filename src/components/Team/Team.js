@@ -5,12 +5,23 @@ function Team() {
     return (
         <div style={{ marginRight: "15%", marginLeft: "15%", marginBottom: "10%" }} >
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Team Batting Stats</h1>
+            <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Team Record</h1>
             <Table striped bordered hover>
                 <thead>
                     <tr>
                         <th>Wins</th>
                         <th>Losses</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <td>0</td>
+                    <td>0</td>
+                </tbody>
+            </Table>
+            <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Team Batting Stats</h1>
+            <Table striped bordered hover>
+                <thead>
+                    <tr>
                         <th>Runs</th>
                         <th>RA's</th>
                         <th>Hits</th>
@@ -22,19 +33,17 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <th>0</th>
-                        <th>0</th>
-                        <th>0</th>
-                        <th>0</th>
-                        <th>0</th>
-                        <th>.000</th>
-                        <th>.000</th>
-                        <th>.000</th>
-                        <th>.000</th>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>.000</td>
+                        <td>.000</td>
+                        <td>.000</td>
+                        <td>.000</td>
                     </tr>
                 </tbody>
             </Table>
-            <h1>Team Pitching Stats</h1>
+            <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Team Pitching Stats</h1>
             <Table striped bordered hover>
                 <thead>
                     <tr>
@@ -43,27 +52,21 @@ function Team() {
                         <th>WHIP</th>
                         <th>BB's</th>
                         <th>K's</th>
-                        <th>PT's</th>
-                        <th>BALL</th>
-                        <th>STRK</th>
                         <th>FIP</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>0</th>
-                        <th>0.00</th>
-                        <th>0.00</th>
-                        <th>0</th>
-                        <th>0</th>
-                        <th>0</th>
-                        <th>0</th>
-                        <th>0</th>
-                        <th>0.00</th>
+                        <td>0</td>
+                        <td>0.00</td>
+                        <td>0.00</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0.00</td>
                     </tr>
                 </tbody>
             </Table>
-        </div>
+        </div >
     )
 }
 export default Team;
