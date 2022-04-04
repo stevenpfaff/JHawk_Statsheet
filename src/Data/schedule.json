@@ -9,21 +9,21 @@
     {
         "date": "May 3rd",
         "time": "5:30 PM",
-        "location": "Jackson Town Hall Field 4",
+        "location": "Jackson Town Hall Field 1",
         "away_team": "Milwaukee Baseball Academy",
         "home_team": "Jackson J-Hawks"
     },
     {
         "date": "May 10th",
         "time": "5:30 PM",
-        "location": "Jackson Town Hall Field 4",
+        "location": "Jackson Town Hall Field 1",
         "away_team": "Port Washington Pirates",
         "home_team": "Jackson J-Hawks"
     },
     {
         "date": "May 17th",
         "time": "5:30 PM",
-        "location": "Jackson Town Hall Field 4",
+        "location": "Jackson Town Hall Field 1",
         "away_team": "Richfield Rockets",
         "home_team": "Jackson J-Hawks"
     },
@@ -37,7 +37,7 @@
     {
         "date": "May 23rd",
         "time": "5:30 PM",
-        "location": "Jackson Town Hall Field 4",
+        "location": "Jackson Town Hall Field 1",
         "away_team": "Kettle Moraine Jr. Chargers",
         "home_team": "Jackson J-Hawks"
     },
@@ -51,7 +51,7 @@
     {
         "date": "June 7th",
         "time": "6:00 PM",
-        "location": "Jackson Town Hall Field 4",
+        "location": "Jackson Town Hall Field 1",
         "away_team": "Hartford Orioles",
         "home_team": "Jackson J-Hawks"
     },
@@ -64,7 +64,7 @@
     },
     {
         "date": "June 10th",
-        "time": "5:30",
+        "time": "5:30 PM",
         "location": "TBD",
         "away_team": "Jackson J-Hawks",
         "home_team": "Glendale Knights"
@@ -72,7 +72,7 @@
     {
         "date": "June 13th",
         "time": "6:00 PM",
-        "location": "Jackson Town Hall Field 4",
+        "location": "Jackson Town Hall Field 1",
         "away_team": "Mequon BOSS",
         "home_team": "Jackson J-Hawks"
     },
@@ -93,7 +93,7 @@
     {
         "date": "June 27th",
         "time": "6:00 PM",
-        "location": "Jackson Town Hall Field 4",
+        "location": "Jackson Town Hall Field 1",
         "away_team": "Menomonee Falls Phoenix",
         "home_team": "Jackson J-Hawks"
     },
@@ -107,7 +107,7 @@
     {
         "date": "July 5th",
         "time": "6:00 PM",
-        "location": "Jackson Town Hall Field 4",
+        "location": "Jackson Town Hall Field 1",
         "away_team": "Glendale Knights",
         "home_team": "Jackson J-Hawks"
     }
