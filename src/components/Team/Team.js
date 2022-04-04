@@ -11,9 +11,15 @@ function Team() {
                     <tr>
                         <th>Wins</th>
                         <th>Losses</th>
+                        <th>Runs Scored</th>
+                        <th>Runs Allowed</th>
+                        <th>Run Diff</th>
                     </tr>
                 </thead>
                 <tbody>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
                     <td>0</td>
                     <td>0</td>
                 </tbody>
@@ -22,8 +28,6 @@ function Team() {
             <Table striped bordered hover>
                 <thead>
                     <tr>
-                        <th>Runs</th>
-                        <th>RA's</th>
                         <th>Hits</th>
                         <th>AVG</th>
                         <th>Slug%</th>
@@ -33,8 +37,6 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>0</td>
-                        <td>0</td>
                         <td>0</td>
                         <td>.000</td>
                         <td>.000</td>
