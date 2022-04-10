@@ -2,7 +2,7 @@
     {
         "date": "May 2nd",
         "time": "5:30 PM",
-        "location": "TBD",
+        "location": "Richfield Heritage Park Field 7",
         "away_team": "Jackson J-Hawks",
         "home_team": "Richfield Rockets"
     },
@@ -30,7 +30,7 @@
     {
         "date": "May 19th",
         "time": "5:30 PM",
-        "location": "TBD",
+        "location": "Hartford Independence Park",
         "away_team": "Jackson J-Hawks",
         "home_team": "Hartford Orioles"
     },
@@ -44,7 +44,7 @@
     {
         "date": "May 31st",
         "time": "5:30 PM",
-        "location": "TBD",
+        "location": "Mequon Lemke Park",
         "away_team": "Jackson J-Hawks",
         "home_team": "Mequon BOSS"
     },
@@ -65,7 +65,7 @@
     {
         "date": "June 10th",
         "time": "5:30 PM",
-        "location": "TBD",
+        "location": "Richard E. Maslowski Glendale Community Park",
         "away_team": "Jackson J-Hawks",
         "home_team": "Glendale Knights"
     },
@@ -100,7 +100,7 @@
     {
         "date": "June 30th",
         "time": "5:30 PM",
-        "location": "TBD",
+        "location": "Thomas Jefferson Middle School",
         "away_team": "Jackson J-Hawks",
         "home_team": "Port Washington Pirates"
     },
