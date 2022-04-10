@@ -51,7 +51,6 @@ function Players() {
                     <tr>
                         <th>Player</th>
                         <th>IP</th>
-                        <th>ER's</th>
                         <th>ERA</th>
                         <th>BB's</th>
                         <th>K's</th>
@@ -67,7 +66,6 @@ function Players() {
                         <tr>
                             <td>{player.name}</td>
                             <td>{player.ip}</td>
-                            <td>{player.er}</td>
                             <td>.{player.era}</td>
                             <td>{player.bbs}</td>
                             <td>{player.ks}</td>
