@@ -12,15 +12,15 @@ function Players() {
                     <tr>
                         <th>Player</th>
                         <th>Games</th>
-                        <th>ABs</th>
-                        <th>Hits</th>
+                        <th>AB</th>
+                        <th>H</th>
                         <th>AVG</th>
-                        <th>Runs</th>
-                        <th>RBIs</th>
+                        <th>R</th>
+                        <th>RBI</th>
                         <th>XBH</th>
-                        <th>Slug%</th>
-                        <th>BB's</th>
-                        <th>K's</th>
+                        <th>SLG</th>
+                        <th>BB</th>
+                        <th>K</th>
                         <th>OBP</th>
                         <th>OPS</th>
                     </tr>
@@ -52,10 +52,10 @@ function Players() {
                         <th>Player</th>
                         <th>IP</th>
                         <th>ERA</th>
-                        <th>BB's</th>
-                        <th>K's</th>
+                        <th>BB</th>
+                        <th>K</th>
                         <th>WHIP</th>
-                        <th>PT's</th>
+                        <th>PT</th>
                         <th>BALL</th>
                         <th>STRK</th>
                         <th>FIP</th>
