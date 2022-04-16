@@ -110,5 +110,12 @@
         "location": "Jackson Town Hall Field 1",
         "away_team": "Glendale Knights",
         "home_team": "Jackson J-Hawks"
+    },
+    {
+        "date": "July 19th",
+        "time": "10:30 AM",
+        "location": "Helfaer Field",
+        "away_team": "Menomonee Falls Jr. Phoenix",
+        "home_team": "Jackson J-Hawks"
     }
 ]
