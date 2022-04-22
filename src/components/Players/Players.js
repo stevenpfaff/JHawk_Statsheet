@@ -82,6 +82,35 @@ function Players() {
                     ))}
                 </tbody>
             </Table>
+            <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Fielding & Baserunning Stats</h1>
+            <Table striped bordered hover>
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>PO</th>
+                        <th>A</th>
+                        <th>E</th>
+                        <th>F%</th>
+                        <th>SB</th>
+                        <th>CS</th>
+                        <th>SB%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {players.map((player) => (
+                        <tr>
+                            <td>{player.name}</td>
+                            <td>{player.po}</td>
+                            <td>{player.a}</td>
+                            <td>{player.e}</td>
+                            <td>{player.fpct}</td>
+                            <td>{player.sb}</td>
+                            <td>{player.cs}</td>
+                            <td>{player.sbpct}</td>
+                        </tr>
+                    ))}
+                </tbody>
+            </Table>
         </div>
     );
 }

@@ -28,7 +28,14 @@
         "pt": 0,
         "strikes": 0,
         "balls": 0,
-        "fip": 0.00
+        "fip": 0.00,
+        "po": 0,
+        "a": 0,
+        "e": 0,
+        "fpct": 0,
+        "sb": 0,
+        "cs": 0,
+        "sbpct": 0
     },
     {
         "name": "Brinton Emery",
@@ -59,7 +66,14 @@
         "pt": 0,
         "strikes": 0,
         "balls": 0,
-        "fip": 0.00
+        "fip": 0.00,
+        "po": 0,
+        "a": 0,
+        "e": 0,
+        "fpct": 0,
+        "sb": 0,
+        "cs": 0,
+        "sbpct": 0
     },
     {
         "name": "Chase Bocher",
@@ -90,7 +104,14 @@
         "pt": 0,
         "strikes": 0,
         "balls": 0,
-        "fip": 0.00
+        "fip": 0.00,
+        "po": 0,
+        "a": 0,
+        "e": 0,
+        "fpct": 0,
+        "sb": 0,
+        "cs": 0,
+        "sbpct": 0
     },
     {
         "name": "Cooper Hammersmith",
@@ -121,7 +142,14 @@
         "pt": 0,
         "strikes": 0,
         "balls": 0,
-        "fip": 0.00
+        "fip": 0.00,
+        "po": 0,
+        "a": 0,
+        "e": 0,
+        "fpct": 0,
+        "sb": 0,
+        "cs": 0,
+        "sbpct": 0
     },
     {
         "name": "Gavin Lebeck",
@@ -152,7 +180,14 @@
         "pt": 0,
         "strikes": 0,
         "balls": 0,
-        "fip": 0.00
+        "fip": 0.00,
+        "po": 0,
+        "a": 0,
+        "e": 0,
+        "fpct": 0,
+        "sb": 0,
+        "cs": 0,
+        "sbpct": 0
     },
     {
         "name": "Hannah Jorgensen",
@@ -183,7 +218,14 @@
         "pt": 0,
         "strikes": 0,
         "balls": 0,
-        "fip": 0.00
+        "fip": 0.00,
+        "po": 0,
+        "a": 0,
+        "e": 0,
+        "fpct": 0,
+        "sb": 0,
+        "cs": 0,
+        "sbpct": 0
     },
     {
         "name": "Hudson Moran",
@@ -214,7 +256,14 @@
         "pt": 0,
         "strikes": 0,
         "balls": 0,
-        "fip": 0.00
+        "fip": 0.00,
+        "po": 0,
+        "a": 0,
+        "e": 0,
+        "fpct": 0,
+        "sb": 0,
+        "cs": 0,
+        "sbpct": 0
     },
     {
         "name": "Jace Mahlstadt",
@@ -245,7 +294,14 @@
         "pt": 0,
         "strikes": 0,
         "balls": 0,
-        "fip": 0.00
+        "fip": 0.00,
+        "po": 0,
+        "a": 0,
+        "e": 0,
+        "fpct": 0,
+        "sb": 0,
+        "cs": 0,
+        "sbpct": 0
     },
     {
         "name": "Jaxon Johnstone",
@@ -276,7 +332,14 @@
         "pt": 0,
         "strikes": 0,
         "balls": 0,
-        "fip": 0.00
+        "fip": 0.00,
+        "po": 0,
+        "a": 0,
+        "e": 0,
+        "fpct": 0,
+        "sb": 0,
+        "cs": 0,
+        "sbpct": 0
     },
     {
         "name": "Michael Sakalowski",
@@ -307,7 +370,14 @@
         "pt": 0,
         "strikes": 0,
         "balls": 0,
-        "fip": 0.00
+        "fip": 0.00,
+        "po": 0,
+        "a": 0,
+        "e": 0,
+        "fpct": 0,
+        "sb": 0,
+        "cs": 0,
+        "sbpct": 0
     },
     {
         "name": "Samuel Baker",
@@ -338,6 +408,13 @@
         "pt": 0,
         "strikes": 0,
         "balls": 0,
-        "fip": 0.00
+        "fip": 0.00,
+        "po": 0,
+        "a": 0,
+        "e": 0,
+        "fpct": 0,
+        "sb": 0,
+        "cs": 0,
+        "sbpct": 0
     }
 ]
