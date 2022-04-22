@@ -17,7 +17,9 @@ function Players() {
                         <th>AVG</th>
                         <th>R</th>
                         <th>RBI</th>
-                        <th>XBH</th>
+                        <th>2B</th>
+                        <th>3B</th>
+                        <th>HR</th>
                         <th>SLG</th>
                         <th>BB</th>
                         <th>K</th>
@@ -35,7 +37,9 @@ function Players() {
                             <td>.{player.average}</td>
                             <td>{player.runs}</td>
                             <td>{player.rbis}</td>
-                            <td>{player.xbh}</td>
+                            <td>{player.double}</td>
+                            <td>{player.triple}</td>
+                            <td>{player.homerun}</td>
                             <td>.{player.slug}</td>
                             <td>{player.walks}</td>
                             <td>{player.strikeouts}</td>
