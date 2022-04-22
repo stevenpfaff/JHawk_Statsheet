@@ -11,7 +11,7 @@ function Players() {
                 <thead>
                     <tr>
                         <th>Player</th>
-                        <th>Games</th>
+                        <th>GP</th>
                         <th>AB</th>
                         <th>H</th>
                         <th>AVG</th>

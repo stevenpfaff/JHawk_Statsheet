@@ -14,7 +14,9 @@ function Schedule() {
                         <th>Time</th>
                         <th>Location</th>
                         <th>Away Team</th>
+                        <th>Away Score</th>
                         <th>Home Team</th>
+                        <th>Home Score</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -24,7 +26,9 @@ function Schedule() {
                             <td>{schedule.time}</td>
                             <td>{schedule.location}</td>
                             <td>{schedule.away_team}</td>
+                            <td>{schedule.away_score}</td>
                             <td>{schedule.home_team}</td>
+                            <td>{schedule.home_score}</td>
                         </tr>
                     ))}
                 </tbody>

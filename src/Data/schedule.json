@@ -4,6 +4,8 @@
         "time": "5:30 PM",
         "location": "Richfield Heritage Park Field 7",
         "away_team": "Jackson J-Hawks",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Richfield Rockets"
     },
     {
@@ -11,13 +13,44 @@
         "time": "5:30 PM",
         "location": "Jackson Town Hall Field 1",
         "away_team": "Milwaukee Baseball Academy",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Jackson J-Hawks"
+    },
+    {
+        "date": "May 7th",
+        "time": "8:00 AM",
+        "location": "Richfield Heritage Park Field 7",
+        "away_team": "Fox River Bandits",
+        "away_score": 0,
+        "home_score": 0,
+        "home_team": "Jackson J-Hawks"
+    },
+    {
+        "date": "May 7th",
+        "time": "10:00 AM",
+        "location": "Richfield Heritage Park Field 7",
+        "away_team": "Jackson J-Hawks",
+        "away_score": 0,
+        "home_score": 0,
+        "home_team": "Elmbrook Braves Black"
+    },
+    {
+        "date": "May 8th",
+        "time": "TBD",
+        "location": "Richfield Heritage Park Field 7",
+        "away_team": "Jackson J-Hawks",
+        "away_score": 0,
+        "home_score": 0,
+        "home_team": "TBD"
     },
     {
         "date": "May 10th",
         "time": "5:30 PM",
         "location": "Jackson Town Hall Field 1",
         "away_team": "Port Washington Pirates",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Jackson J-Hawks"
     },
     {
@@ -25,6 +58,8 @@
         "time": "5:30 PM",
         "location": "Jackson Town Hall Field 1",
         "away_team": "Richfield Rockets",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Jackson J-Hawks"
     },
     {
@@ -32,6 +67,8 @@
         "time": "5:30 PM",
         "location": "Hartford Independence Park",
         "away_team": "Jackson J-Hawks",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Hartford Orioles"
     },
     {
@@ -39,6 +76,8 @@
         "time": "5:30 PM",
         "location": "Jackson Town Hall Field 1",
         "away_team": "Kettle Moraine Jr. Chargers",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Jackson J-Hawks"
     },
     {
@@ -46,6 +85,8 @@
         "time": "5:30 PM",
         "location": "Mequon Lemke Park",
         "away_team": "Jackson J-Hawks",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Mequon BOSS"
     },
     {
@@ -53,6 +94,8 @@
         "time": "6:00 PM",
         "location": "Jackson Town Hall Field 1",
         "away_team": "Hartford Orioles",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Jackson J-Hawks"
     },
     {
@@ -60,6 +103,8 @@
         "time": "6:00 PM",
         "location": "Shady Lane Elementary Field",
         "away_team": "Jackson J-Hawks",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Menomonee Falls Phoenix"
     },
     {
@@ -67,6 +112,8 @@
         "time": "5:30 PM",
         "location": "Richard E. Maslowski Glendale Community Park",
         "away_team": "Jackson J-Hawks",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Glendale Knights"
     },
     {
@@ -74,6 +121,8 @@
         "time": "6:00 PM",
         "location": "Jackson Town Hall Field 1",
         "away_team": "Mequon BOSS",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Jackson J-Hawks"
     },
     {
@@ -81,6 +130,8 @@
         "time": "6:00 PM",
         "location": "Jackson Town Hall",
         "away_team": "Milwaukee Baseball Academy",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Jackson J-Hawks"
     },
     {
@@ -88,6 +139,8 @@
         "time": "6:00 PM",
         "location": "Kettle Moraine High School",
         "away_team": "Jackson J-Hawks",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Kettle Moraine Jr. Chargers"
     },
     {
@@ -95,6 +148,8 @@
         "time": "6:00 PM",
         "location": "Jackson Town Hall Field 1",
         "away_team": "Menomonee Falls Phoenix",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Jackson J-Hawks"
     },
     {
@@ -102,6 +157,8 @@
         "time": "5:30 PM",
         "location": "Thomas Jefferson Middle School",
         "away_team": "Jackson J-Hawks",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Port Washington Pirates"
     },
     {
@@ -109,6 +166,8 @@
         "time": "6:00 PM",
         "location": "Jackson Town Hall Field 1",
         "away_team": "Glendale Knights",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Jackson J-Hawks"
     },
     {
@@ -116,6 +175,8 @@
         "time": "10:30 AM",
         "location": "Helfaer Field",
         "away_team": "Menomonee Falls Jr. Phoenix",
+        "away_score": 0,
+        "home_score": 0,
         "home_team": "Jackson J-Hawks"
     }
 ]
