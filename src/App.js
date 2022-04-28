@@ -5,6 +5,8 @@ import Team from './components/Team/Team';
 import Tourneys from './components/Tournaments/Tournaments';
 import Schedule from './components/Schedule/Schedule';
 import NavBar from './components/NavBar/NavBar';
+import EditPlayer from './components/Players/EditPlayer';
+import AddGame from './components/Schedule/AddGame';
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <Route path="/" exact component={Schedule} />
       <Route path="/Players" exact component={Players} />
       <Route path="/Team" exact component={Team} />
+      <Route path="/AddGame" exact component={AddGame} />
     </div>
   );
 }
