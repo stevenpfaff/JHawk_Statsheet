@@ -29,6 +29,10 @@ class AddGame extends Component {
                 HomeScore: event.target.HomeScore.value,
                 AwayTeam: event.target.AwayTeam.value,
                 AwayScore: event.target.AwayScore.value,
+                Field: event.target.Field.value,
+                Date: event.target.Date.value,
+                Time: event.target.Time.value
+
             })
         })
             .then(res => res.json())
@@ -55,6 +59,15 @@ class AddGame extends Component {
                 </Form.Group>
                 <Form.Group controlId="AwayScore">
                     <Form.Control type="number" placeholder="Away Score" />
+                </Form.Group>
+                <Form.Group controlId="Field">
+                    <Form.Control type="text" placeholder="Location" />
+                </Form.Group>
+                <Form.Group controlId="Date">
+                    <Form.Control type="date" placeholder="YYYY-MM-DD" />
+                </Form.Group>
+                <Form.Group controlId="Time">
+                    <Form.Control type="time" placeholder="Time" />
                 </Form.Group>
                 <button type="submit">Add Game</button>
             </form>

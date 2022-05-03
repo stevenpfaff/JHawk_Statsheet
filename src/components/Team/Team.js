@@ -18,11 +18,11 @@ function Team() {
                     </tr>
                 </thead>
                 <tbody>
+                    <td>1</td>
                     <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td>21</td>
+                    <td>7</td>
+                    <td>+13</td>
                 </tbody>
             </Table>
             <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Team Batting Stats</h1>
@@ -38,11 +38,11 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>0</td>
-                        <td>.000</td>
-                        <td>.000</td>
-                        <td>.000</td>
-                        <td>.000</td>
+                        <td>9</td>
+                        <td>.375</td>
+                        <td>.583</td>
+                        <td>.634</td>
+                        <td>1.217</td>
                     </tr>
                 </tbody>
             </Table>
@@ -60,12 +60,12 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>0</td>
-                        <td>0.00</td>
-                        <td>0.00</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0.00</td>
+                        <td>5</td>
+                        <td>8.40</td>
+                        <td>1.60</td>
+                        <td>8</td>
+                        <td>8</td>
+                        <td>5.10</td>
                     </tr>
                 </tbody>
             </Table>
@@ -84,13 +84,13 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0%</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0%</td>
+                        <td>7</td>
+                        <td>5</td>
+                        <td>1</td>
+                        <td>92%</td>
+                        <td>4</td>
+                        <td>1</td>
+                        <td>80%</td>
                     </tr>
                 </tbody>
             </Table>

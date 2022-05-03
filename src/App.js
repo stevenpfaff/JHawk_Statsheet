@@ -5,8 +5,7 @@ import Team from './components/Team/Team';
 import Tourneys from './components/Tournaments/Tournaments';
 import Schedule from './components/Schedule/Schedule';
 import NavBar from './components/NavBar/NavBar';
-import EditPlayer from './components/Players/EditPlayer';
-import AddGame from './components/Schedule/AddGame';
+import AddGame from './components/Schedule/AddGame'
 
 function App() {
   return (

@@ -4,7 +4,7 @@ import { Table } from 'react-bootstrap'
 class Schedule extends Component {
     constructor(props) {
         super(props);
-        this.state = { game: [] }
+        this.state = { game: [], editModalShow: false }
     }
     refreshList() {
         fetch(process.env.REACT_APP_API + 'game')
@@ -23,14 +23,17 @@ class Schedule extends Component {
     }
 
     render() {
-        const { game } = this.state
+        const { game } = this.state;
         return (
             <div style={{ marginRight: "15%", marginLeft: "15%", marginBottom: "10%" }} >
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>League Schedule</h1>
+                <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Team Schedule</h1>
                 <Table striped bordered hover>
                     <thead>
                         <tr>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Location</th>
                             <th>Away Team</th>
                             <th>Away Score</th>
                             <th>Home Team</th>
@@ -39,7 +42,10 @@ class Schedule extends Component {
                     </thead>
                     <tbody>
                         {game.map((game) => (
-                            <tr>
+                            <tr key={game.Id}>
+                                <td>{game.Date}</td>
+                                <td>{game.Time}</td>
+                                <td>{game.Field}</td>
                                 <td>{game.AwayTeam}</td>
                                 <td>{game.AwayScore}</td>
                                 <td>{game.HomeTeam}</td>
@@ -48,6 +54,8 @@ class Schedule extends Component {
                         ))}
                     </tbody>
                 </Table>
+
+
             </div>
         )
     }
