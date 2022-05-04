@@ -23,16 +23,17 @@ class Players extends Component {
         this.refreshList();
     }
 
+
     render() {
         const { player } = this.state;
         return (
-            <div style={{ marginRight: "15%", marginLeft: "15%", marginBottom: "10%" }} >
+            <div style={{ marginRight: "25%", marginLeft: "25%", marginBottom: "10%" }} >
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Batting Stats</h1>
                 <Table striped bordered hover>
                     <thead>
                         <tr>
-                            <th>Player</th>
+                            <th>PLAYER</th>
                             <th>GP</th>
                             <th>AB</th>
                             <th>H</th>
@@ -67,9 +68,6 @@ class Players extends Component {
                                 <td>{player.SLG}</td>
                                 <td>{player.OBP}</td>
                                 <td>{player.OPS}</td>
-
-
-
                             </tr>
                         ))}
                     </tbody>
@@ -78,14 +76,14 @@ class Players extends Component {
                 <Table striped bordered hover>
                     <thead>
                         <tr>
-                            <th>Player</th>
+                            <th>PLAYER</th>
                             <th>IP</th>
                             <th>ERA</th>
                             <th>BB</th>
                             <th>K</th>
                             <th>WHIP</th>
-                            <th>BALL</th>
-                            <th>STRK</th>
+                            <th>BALLS</th>
+                            <th>STRKS</th>
                             <th>PT</th>
                             <th>FIP</th>
                         </tr>
@@ -111,7 +109,7 @@ class Players extends Component {
                 <Table striped bordered hover>
                     <thead>
                         <tr>
-                            <th>Player</th>
+                            <th>PLAYER</th>
                             <th>PO</th>
                             <th>A</th>
                             <th>E</th>

@@ -25,7 +25,7 @@ class Tourney extends Component {
     render() {
         const { tourney } = this.state
         return (
-            <div style={{ marginRight: "15%", marginLeft: "15%", marginBottom: "10%" }} >
+            <div style={{ marginRight: "25%", marginLeft: "25%", marginBottom: "10%" }} >
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Tournament Results</h1>
                 <Table striped bordered hover>
