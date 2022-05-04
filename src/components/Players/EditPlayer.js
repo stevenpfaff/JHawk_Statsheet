@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Modal, Button, Col, Form } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 
 export class EditPlayer extends Component {
     constructor(props) {
@@ -74,7 +74,7 @@ export class EditPlayer extends Component {
         return (
             <form onSubmit={this.handleSubmit}>
                 <h2> Register A Player </h2>
-                <Form.Group className="mb-3" controlId="formGroupEmail">
+                <Form.Group className="mb-3" controlId="Name">
                     <Form.Control type="text" placeholder="Player Name" onChange={this.handleNameChange} value={this.state.name} />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formGroupDescription">

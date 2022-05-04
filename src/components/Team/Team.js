@@ -13,16 +13,18 @@ function Team() {
                         <th>Wins</th>
                         <th>Losses</th>
                         <th>Runs Scored</th>
-                        <th>Runs Allowed</th>
+                        <th>Runs Against</th>
                         <th>Run Diff</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>21</td>
-                    <td>7</td>
-                    <td>+13</td>
+                    <tr>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>21</td>
+                        <td>7</td>
+                        <td>+13</td>
+                    </tr>
                 </tbody>
             </Table>
             <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Team Batting Stats</h1>
@@ -61,7 +63,7 @@ function Team() {
                 <tbody>
                     <tr>
                         <td>5</td>
-                        <td>8.40</td>
+                        <td>0.00</td>
                         <td>1.60</td>
                         <td>8</td>
                         <td>8</td>
