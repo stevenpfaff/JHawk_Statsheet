@@ -19,11 +19,11 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1</td>
-                        <td>0</td>
-                        <td>21</td>
+                        <td>4</td>
                         <td>7</td>
-                        <td>+13</td>
+                        <td>101</td>
+                        <td>114</td>
+                        <td>-13</td>
                     </tr>
                 </tbody>
             </Table>
@@ -33,18 +33,18 @@ function Team() {
                     <tr>
                         <th>H</th>
                         <th>AVG</th>
-                        <th>SLG</th>
                         <th>OBP</th>
+                        <th>SLG</th>
                         <th>OPS</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>9</td>
-                        <td>.375</td>
-                        <td>.583</td>
-                        <td>.634</td>
-                        <td>1.217</td>
+                        <td>52</td>
+                        <td>.257</td>
+                        <td>.508</td>
+                        <td>.347</td>
+                        <td>.855</td>
                     </tr>
                 </tbody>
             </Table>
@@ -62,12 +62,12 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>5</td>
-                        <td>0.00</td>
-                        <td>1.60</td>
-                        <td>8</td>
-                        <td>8</td>
-                        <td>5.10</td>
+                        <td>48.2</td>
+                        <td>7.62</td>
+                        <td>2.40</td>
+                        <td>71</td>
+                        <td>77</td>
+                        <td>4.79</td>
                     </tr>
                 </tbody>
             </Table>
@@ -86,13 +86,13 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>7</td>
+                        <td>67</td>
+                        <td>36</td>
+                        <td>45</td>
+                        <td>70%</td>
+                        <td>59</td>
                         <td>5</td>
-                        <td>1</td>
                         <td>92%</td>
-                        <td>4</td>
-                        <td>1</td>
-                        <td>80%</td>
                     </tr>
                 </tbody>
             </Table>

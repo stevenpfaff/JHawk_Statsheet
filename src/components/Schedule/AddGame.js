@@ -4,9 +4,8 @@ import { Form } from "react-bootstrap"
 class AddGame extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-
-        }
+        this.state = { game: [] };
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
     componentDidMount() {
         fetch(process.env.REACT_APP_API + 'game')
@@ -42,22 +41,22 @@ class AddGame extends Component {
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
+            <Form onSubmit={this.handleSubmit}>
                 <h1>Add A Game</h1>
                 <Form.Group controlId="HomeTeam">
-                    <Form.Control type="text" placeholder="Home Team" />
-                </Form.Group>
-                <Form.Group controlId="HomeScore">
-                    <Form.Control type="number" placeholder="Home Score" />
+                    <Form.Control type="text" name="HomeTeam" placeholder="Home Team" />
                 </Form.Group>
                 <Form.Group controlId="AwayTeam">
-                    <Form.Control type="text" placeholder="Away Team" />
+                    <Form.Control type="text" name="AwayTeam" placeholder="Away Team" />
+                </Form.Group>
+                <Form.Group controlId="HomeScore">
+                    <Form.Control type="number" name="HomeScore" placeholder="Home Score" />
                 </Form.Group>
                 <Form.Group controlId="AwayScore">
-                    <Form.Control type="number" placeholder="Away Score" />
+                    <Form.Control type="number" name="AwayScore" placeholder="Away Score" />
                 </Form.Group>
                 <button type="submit">Add Game</button>
-            </form>
+            </Form>
         )
     }
 }

@@ -16,3 +16,13 @@ tbody {
 h1 {
     text-align: center;
 }
+
+.column1 {
+    float: left;
+    width: 25%
+}
+
+.column2 {
+    float: right;
+    width: 60%;
+}

@@ -24,6 +24,8 @@ class Players extends Component {
     }
 
 
+
+
     render() {
         const { player } = this.state;
         return (
@@ -33,20 +35,20 @@ class Players extends Component {
                 <Table striped bordered hover>
                     <thead>
                         <tr>
-                            <th>PLAYER</th>
+                            <th>Player</th>
                             <th>GP</th>
                             <th>AB</th>
                             <th>H</th>
                             <th>AVG</th>
-                            <th>BB</th>
-                            <th>K</th>
                             <th>R</th>
                             <th>RBI</th>
+                            <th>BB</th>
+                            <th>K</th>
                             <th>2B</th>
                             <th>3B</th>
                             <th>HR</th>
-                            <th>SLG</th>
                             <th>OBP</th>
+                            <th>SLG</th>
                             <th>OPS</th>
                         </tr>
                     </thead>
@@ -65,8 +67,8 @@ class Players extends Component {
                                 <td>{player.DBL}</td>
                                 <td>{player.TPL}</td>
                                 <td>{player.HR}</td>
-                                <td>{player.SLG}</td>
                                 <td>{player.OBP}</td>
+                                <td>{player.SLG}</td>
                                 <td>{player.OPS}</td>
                             </tr>
                         ))}
@@ -76,14 +78,14 @@ class Players extends Component {
                 <Table striped bordered hover>
                     <thead>
                         <tr>
-                            <th>PLAYER</th>
+                            <th>Player</th>
                             <th>IP</th>
                             <th>ERA</th>
                             <th>BB</th>
                             <th>K</th>
                             <th>WHIP</th>
-                            <th>BALLS</th>
-                            <th>STRKS</th>
+                            <th>B</th>
+                            <th>S</th>
                             <th>PT</th>
                             <th>FIP</th>
                         </tr>
@@ -109,10 +111,11 @@ class Players extends Component {
                 <Table striped bordered hover>
                     <thead>
                         <tr>
-                            <th>PLAYER</th>
+                            <th>Player</th>
                             <th>PO</th>
                             <th>A</th>
                             <th>E</th>
+                            <th>CS</th>
                             <th>F%</th>
                             <th>SB</th>
                             <th>CS</th>
@@ -126,6 +129,7 @@ class Players extends Component {
                                 <td>{player.PO}</td>
                                 <td>{player.A}</td>
                                 <td>{player.E}</td>
+                                <td>{player.CCS}</td>
                                 <td>{player.FP}%</td>
                                 <td>{player.SB}</td>
                                 <td>{player.CS}</td>

@@ -32,6 +32,7 @@ class Schedule extends Component {
                 <Table striped bordered hover>
                     <thead>
                         <tr>
+                            <th>Date</th>
                             <th>Away Team</th>
                             <th>Away Score</th>
                             <th>Home Team</th>
@@ -41,6 +42,7 @@ class Schedule extends Component {
                     <tbody>
                         {game.map((game) => (
                             <tr>
+                                <td>{game.Date}</td>
                                 <td>{game.AwayTeam}</td>
                                 <td>{game.AwayScore}</td>
                                 <td>{game.HomeTeam}</td>
