@@ -12,7 +12,7 @@ const AddGame = () => {
     const handleSubmit = (event) => {
         event.preventDefault()
         const game = { HomeTeam, HomeScore, AwayTeam, AwayScore, Date }
-        fetch(process.env.REACT_APP_API + 'tourney', {
+        fetch(process.env.REACT_APP_API + 'game', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',

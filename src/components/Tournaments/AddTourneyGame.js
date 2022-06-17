@@ -11,14 +11,14 @@ const AddTourneyGame = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        const game = { HomeTeam, HomeScore, AwayTeam, AwayScore, Name }
-        fetch(process.env.REACT_APP_API + 'game', {
+        const tourney = { HomeTeam, HomeScore, AwayTeam, AwayScore, Name }
+        fetch(process.env.REACT_APP_API + 'tourney', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(game)
+            body: JSON.stringify(tourney)
         })
     }
     return (
