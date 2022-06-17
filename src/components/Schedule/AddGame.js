@@ -1,63 +1,47 @@
-import React, { Component } from 'react'
+import { useState } from "react";
 import { Form } from "react-bootstrap"
+import { Button, Grid } from '@material-ui/core';
 
-class AddGame extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { game: [] };
-        this.handleSubmit = this.handleSubmit.bind(this);
-    }
-    componentDidMount() {
-        fetch(process.env.REACT_APP_API + 'game')
-            .then(response => response.json())
-            .then(data => {
-                this.setState({ game: data });
-            });
-    }
-    handleSubmit(event) {
-        event.preventDefault();
+const AddGame = () => {
+    const [HomeTeam, setHomeTeam] = useState('')
+    const [HomeScore, setHomeScore] = useState()
+    const [AwayTeam, setAwayTeam] = useState('')
+    const [AwayScore, setAwayScore] = useState()
+    const [Date, setDate] = useState()
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        const game = { HomeTeam, HomeScore, AwayTeam, AwayScore, Date }
         fetch(process.env.REACT_APP_API + 'game', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({
-                Id: null,
-                HomeTeam: event.target.HomeTeam.value,
-                HomeScore: event.target.HomeScore.value,
-                AwayTeam: event.target.AwayTeam.value,
-                AwayScore: event.target.AwayScore.value
-            })
+            body: JSON.stringify(game)
         })
-            .then(res => res.json())
-            .then((result) => {
-                alert(result);
-            },
-                (error) => {
-                    alert('Failed');
-                })
     }
-
-    render() {
-        return (
-            <Form onSubmit={this.handleSubmit}>
-                <h1>Add A Game</h1>
-                <Form.Group controlId="HomeTeam">
-                    <Form.Control type="text" name="HomeTeam" placeholder="Home Team" />
-                </Form.Group>
-                <Form.Group controlId="AwayTeam">
-                    <Form.Control type="text" name="AwayTeam" placeholder="Away Team" />
-                </Form.Group>
-                <Form.Group controlId="HomeScore">
-                    <Form.Control type="number" name="HomeScore" placeholder="Home Score" />
-                </Form.Group>
-                <Form.Group controlId="AwayScore">
-                    <Form.Control type="number" name="AwayScore" placeholder="Away Score" />
-                </Form.Group>
-                <button type="submit">Add Game</button>
-            </Form>
-        )
-    }
+    return (
+        <form onSubmit={handleSubmit}>
+            <h2> Register A Player </h2>
+            <Form.Group className="mb-3" controlId="HomeTeam">
+                <Form.Control type="text" placeholder="Home Team" onChange={(event) => setHomeTeam(event.target.value)} />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="HomeScore">
+                <Form.Control type="number" placeholder="Home Score" onChange={(event) => setHomeScore(event.target.value)} />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="AwayTeam">
+                <Form.Control type="Text" placeholder="Away Team" onChange={(event) => setAwayTeam(event.target.value)} />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="AwayScore">
+                <Form.Control type="number" placeholder="Away Score" onChange={(event) => setAwayScore(event.target.value)} />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="Date">
+                <Form.Control type="text" placeholder="Date" onChange={(event) => setDate(event.target.value)} />
+            </Form.Group>
+            <Button type="submit" variant="contained" class="btn btn-primary">Add Game</Button>
+            <Grid style={{ marginLeft: "850px" }}></Grid>
+        </form>
+    );
 }
 export default AddGame;

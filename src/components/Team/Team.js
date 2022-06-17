@@ -12,6 +12,7 @@ function Team() {
                     <tr>
                         <th>W</th>
                         <th>L</th>
+                        <th>T</th>
                         <th>R</th>
                         <th>RA</th>
                         <th>RD</th>
@@ -20,10 +21,11 @@ function Team() {
                 <tbody>
                     <tr>
                         <td>4</td>
-                        <td>7</td>
-                        <td>101</td>
-                        <td>114</td>
-                        <td>-13</td>
+                        <td>10</td>
+                        <td>1</td>
+                        <td>131</td>
+                        <td>163</td>
+                        <td>-32</td>
                     </tr>
                 </tbody>
             </Table>
@@ -40,11 +42,11 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>52</td>
-                        <td>.257</td>
-                        <td>.508</td>
-                        <td>.347</td>
-                        <td>.855</td>
+                        <td>57</td>
+                        <td>.254</td>
+                        <td>.494</td>
+                        <td>.329</td>
+                        <td>.823</td>
                     </tr>
                 </tbody>
             </Table>
@@ -62,12 +64,12 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>48.2</td>
-                        <td>7.62</td>
-                        <td>2.40</td>
-                        <td>71</td>
-                        <td>77</td>
-                        <td>4.79</td>
+                        <td>67.2</td>
+                        <td>8.09</td>
+                        <td>2.44</td>
+                        <td>92</td>
+                        <td>108</td>
+                        <td>4.38</td>
                     </tr>
                 </tbody>
             </Table>
@@ -86,12 +88,12 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>67</td>
-                        <td>36</td>
-                        <td>45</td>
-                        <td>70%</td>
-                        <td>59</td>
-                        <td>5</td>
+                        <td>110</td>
+                        <td>63</td>
+                        <td>64</td>
+                        <td>73%</td>
+                        <td>83</td>
+                        <td>7</td>
                         <td>92%</td>
                     </tr>
                 </tbody>
