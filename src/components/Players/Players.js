@@ -28,6 +28,7 @@ class Players extends Component {
 
     render() {
         const { player } = this.state;
+        const sorted = player.sort((a, b) => a.Name > b.Name ? 1 : -1)
         return (
             <div style={{ marginRight: "25%", marginLeft: "25%", marginBottom: "10%" }} >
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -53,7 +54,7 @@ class Players extends Component {
                         </tr>
                     </thead>
                     <tbody>
-                        {player.map((player) => (
+                        {sorted.map((player) => (
                             <tr key={player.Id}>
                                 <td>{player.Name}</td>
                                 <td>{player.GP}</td>

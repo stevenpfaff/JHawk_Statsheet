@@ -21,11 +21,11 @@ function Team() {
                 <tbody>
                     <tr>
                         <td>4</td>
-                        <td>10</td>
+                        <td>16</td>
                         <td>1</td>
-                        <td>131</td>
                         <td>163</td>
-                        <td>-32</td>
+                        <td>268</td>
+                        <td>-105</td>
                     </tr>
                 </tbody>
             </Table>
@@ -42,11 +42,11 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>57</td>
-                        <td>.254</td>
-                        <td>.494</td>
-                        <td>.329</td>
-                        <td>.823</td>
+                        <td>103</td>
+                        <td>.252</td>
+                        <td>.476</td>
+                        <td>.320</td>
+                        <td>.796</td>
                     </tr>
                 </tbody>
             </Table>
@@ -64,12 +64,12 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>67.2</td>
-                        <td>8.09</td>
-                        <td>2.44</td>
-                        <td>92</td>
-                        <td>108</td>
-                        <td>4.38</td>
+                        <td>100.1</td>
+                        <td>10.32</td>
+                        <td>2.98</td>
+                        <td>125</td>
+                        <td>137</td>
+                        <td>4.64</td>
                     </tr>
                 </tbody>
             </Table>
@@ -88,12 +88,12 @@ function Team() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>110</td>
-                        <td>63</td>
-                        <td>64</td>
+                        <td>166</td>
+                        <td>101</td>
+                        <td>100</td>
                         <td>73%</td>
-                        <td>83</td>
-                        <td>7</td>
+                        <td>110</td>
+                        <td>9</td>
                         <td>92%</td>
                     </tr>
                 </tbody>
