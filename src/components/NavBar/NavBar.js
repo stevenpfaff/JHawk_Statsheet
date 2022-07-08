@@ -20,8 +20,7 @@ function NavBar(props) {
                     </Nav>
                     <Nav>
                         <Nav.Link href="/Team">Team Stats</Nav.Link>
-                        <Nav.Link href="/Players">Total Player Stats</Nav.Link>
-                        <Nav.Link href="/LeaguePlayers">League Player Stats</Nav.Link>
+                        <Nav.Link href="/Players">Player Stats</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
