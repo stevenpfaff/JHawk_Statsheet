@@ -20,6 +20,13 @@ class LeaguePlayers extends Component {
         this.byOBP = this.byOBP.bind(this);
         this.bySLG = this.bySLG.bind(this);
         this.byOPS = this.byOPS.bind(this);
+        this.byIP = this.byIP.bind(this);
+        this.byERA = this.byERA.bind(this);
+        this.byBB = this.byBB.bind(this);
+        this.byK = this.byK.bind(this);
+        this.byWhip = this.byWhip.bind(this);
+        this.byPT = this.byPT.bind(this);
+        this.byFip = this.byFip.bind(this);
     }
 
     refreshList() {
@@ -173,6 +180,76 @@ class LeaguePlayers extends Component {
         });
     }
 
+    byIP() {
+        let ip = this.state.player.sort((a, b) => {
+            return b.LIP - a.LIP;
+        });
+
+        this.setState({
+            player: ip
+        });
+    }
+
+    byERA() {
+        let era = this.state.player.sort((a, b) => {
+            return a.ERA - b.ERA;
+        });
+
+        this.setState({
+            player: era
+        });
+    }
+
+    byBB() {
+        let bb = this.state.player.sort((a, b) => {
+            return b.Walks - a.Walks;
+        });
+
+        this.setState({
+            player: bb
+        });
+    }
+
+    byK() {
+        let k = this.state.player.sort((a, b) => {
+            return b.Strikeouts - a.Strikeouts;
+        });
+
+        this.setState({
+            player: k
+        });
+    }
+
+    byWhip() {
+        let whip = this.state.player.sort((a, b) => {
+            return a.WHIP - b.WHIP;
+        });
+
+        this.setState({
+            player: whip
+        });
+    }
+
+    byPT() {
+        let pt = this.state.player.sort((a, b) => {
+            return b.PT - a.PT;
+        });
+
+        this.setState({
+            player: pt
+        });
+    }
+
+    byFip() {
+        let fip = this.state.player.sort((a, b) => {
+            return a.FIP - b.FIP;
+        });
+
+        this.setState({
+            player: fip
+        });
+    }
+
     render() {
         return (
             <div style={{ marginRight: "25%", marginLeft: "25%", marginBottom: "10%" }} >
@@ -225,13 +302,13 @@ class LeaguePlayers extends Component {
                     <thead>
                         <tr>
                             <th>Player</th>
-                            <th>IP</th>
-                            <th>ERA</th>
-                            <th>BB</th>
-                            <th>K</th>
-                            <th>WHIP</th>
-                            <th>PT</th>
-                            <th>FIP</th>
+                            <th>IP<button type="button" class="btn btn-default" onClick={this.byIP}><SortNumericDown /></button></th>
+                            <th>ERA<button type="button" class="btn btn-default" onClick={this.byERA}><SortNumericDown /></button></th>
+                            <th>BB<button type="button" class="btn btn-default" onClick={this.byBB}><SortNumericDown /></button></th>
+                            <th>K<button type="button" class="btn btn-default" onClick={this.byK}><SortNumericDown /></button></th>
+                            <th>WHIP<button type="button" class="btn btn-default" onClick={this.byWhip}><SortNumericDown /></button></th>
+                            <th>PT<button type="button" class="btn btn-default" onClick={this.byPT}><SortNumericDown /></button></th>
+                            <th>FIP<button type="button" class="btn btn-default" onClick={this.byFip}><SortNumericDown /></button></th>
                         </tr>
                     </thead>
                     <tbody>
