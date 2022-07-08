@@ -20,6 +20,23 @@ class Players extends Component {
         this.byOBP = this.byOBP.bind(this);
         this.bySLG = this.bySLG.bind(this);
         this.byOPS = this.byOPS.bind(this);
+        this.byIP = this.byIP.bind(this);
+        this.byERA = this.byERA.bind(this);
+        this.byBB = this.byBB.bind(this);
+        this.byK = this.byK.bind(this);
+        this.byWhip = this.byWhip.bind(this);
+        this.byPT = this.byPT.bind(this);
+        this.byFip = this.byFip.bind(this);
+        this.byStk = this.byStk.bind(this);
+        this.byBall = this.byBall.bind(this);
+        this.byPO = this.byPO.bind(this);
+        this.byA = this.byA.bind(this);
+        this.byE = this.byE.bind(this);
+        this.byCCS = this.byCCS.bind(this);
+        this.byFp = this.byFp.bind(this);
+        this.bySB = this.bySB.bind(this);
+        this.byCS = this.byCS.bind(this);
+        this.bySBP = this.bySBP.bind(this);
     }
 
     refreshList() {
@@ -174,8 +191,175 @@ class Players extends Component {
         });
     }
 
+    byIP() {
+        let ip = this.state.player.sort((a, b) => {
+            return b.IP - a.IP;
+        });
 
+        this.setState({
+            player: ip
+        });
+    }
 
+    byERA() {
+        let era = this.state.player.sort((a, b) => {
+            return a.ERA - b.ERA;
+        });
+
+        this.setState({
+            player: era
+        });
+    }
+
+    byBB() {
+        let bb = this.state.player.sort((a, b) => {
+            return b.Walks - a.Walks;
+        });
+
+        this.setState({
+            player: bb
+        });
+    }
+
+    byK() {
+        let k = this.state.player.sort((a, b) => {
+            return b.Strikeouts - a.Strikeouts;
+        });
+
+        this.setState({
+            player: k
+        });
+    }
+
+    byWhip() {
+        let whip = this.state.player.sort((a, b) => {
+            return a.WHIP - b.WHIP;
+        });
+
+        this.setState({
+            player: whip
+        });
+    }
+
+    byPT() {
+        let pt = this.state.player.sort((a, b) => {
+            return b.PT - a.PT;
+        });
+
+        this.setState({
+            player: pt
+        });
+    }
+
+    byFip() {
+        let fip = this.state.player.sort((a, b) => {
+            return a.FIP - b.FIP;
+        });
+
+        this.setState({
+            player: fip
+        });
+    }
+
+    byStk() {
+        let stk = this.state.player.sort((a, b) => {
+            return b.STRK - a.STRK;
+        });
+
+        this.setState({
+            player: stk
+        });
+    }
+
+    byBall() {
+        let ball = this.state.player.sort((a, b) => {
+            return b.BALL - a.BALL;
+        });
+
+        this.setState({
+            player: ball
+        });
+    }
+
+    byPO() {
+        let po = this.state.player.sort((a, b) => {
+            return b.PO - a.PO;
+        });
+
+        this.setState({
+            player: po
+        });
+    }
+
+    byA() {
+        let a = this.state.player.sort((a, b) => {
+            return b.A - a.A;
+        });
+
+        this.setState({
+            player: a
+        });
+    }
+
+    byE() {
+        let e = this.state.player.sort((a, b) => {
+            return b.E - a.E;
+        });
+
+        this.setState({
+            player: e
+        });
+    }
+
+    byCCS() {
+        let ccs = this.state.player.sort((a, b) => {
+            return b.CCS - a.CCS;
+        });
+
+        this.setState({
+            player: ccs
+        });
+    }
+
+    byFp() {
+        let fp = this.state.player.sort((a, b) => {
+            return b.FP - a.FP;
+        });
+
+        this.setState({
+            player: fp
+        });
+    }
+
+    bySB() {
+        let sb = this.state.player.sort((a, b) => {
+            return b.SB - a.SB;
+        });
+
+        this.setState({
+            player: sb
+        });
+    }
+
+    byCS() {
+        let cs = this.state.player.sort((a, b) => {
+            return b.CS - a.CS;
+        });
+
+        this.setState({
+            player: cs
+        });
+    }
+
+    bySBP() {
+        let sbp = this.state.player.sort((a, b) => {
+            return b.SBP - a.SBP;
+        });
+
+        this.setState({
+            player: sbp
+        });
+    }
 
     render() {
         return (
@@ -229,15 +413,15 @@ class Players extends Component {
                     <thead>
                         <tr>
                             <th>Player</th>
-                            <th>IP</th>
-                            <th>ERA</th>
-                            <th>BB</th>
-                            <th>K</th>
-                            <th>WHIP</th>
-                            <th>B</th>
-                            <th>S</th>
-                            <th>PT</th>
-                            <th>FIP</th>
+                            <th>IP<button type="button" class="btn btn-default" onClick={this.byIP}><SortNumericDown /></button></th>
+                            <th>ERA<button type="button" class="btn btn-default" onClick={this.byERA}><SortNumericDown /></button></th>
+                            <th>BB<button type="button" class="btn btn-default" onClick={this.byBB}><SortNumericDown /></button></th>
+                            <th>K<button type="button" class="btn btn-default" onClick={this.byK}><SortNumericDown /></button></th>
+                            <th>WHIP<button type="button" class="btn btn-default" onClick={this.byWhip}><SortNumericDown /></button></th>
+                            <th>B<button type="button" class="btn btn-default" onClick={this.byBall}><SortNumericDown /></button></th>
+                            <th>S<button type="button" class="btn btn-default" onClick={this.byStk}><SortNumericDown /></button></th>
+                            <th>PT<button type="button" class="btn btn-default" onClick={this.byPT}><SortNumericDown /></button></th>
+                            <th>FIP<button type="button" class="btn btn-default" onClick={this.byFip}><SortNumericDown /></button></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -262,14 +446,14 @@ class Players extends Component {
                     <thead>
                         <tr>
                             <th>Player</th>
-                            <th>PO</th>
-                            <th>A</th>
-                            <th>E</th>
-                            <th>CS</th>
-                            <th>F%</th>
-                            <th>SB</th>
-                            <th>CS</th>
-                            <th>SB%</th>
+                            <th>PO<button type="button" class="btn btn-default" onClick={this.byPO}><SortNumericDown /></button></th>
+                            <th>A<button type="button" class="btn btn-default" onClick={this.byA}><SortNumericDown /></button></th>
+                            <th>E<button type="button" class="btn btn-default" onClick={this.byE}><SortNumericDown /></button></th>
+                            <th>CCS<button type="button" class="btn btn-default" onClick={this.byCCS}><SortNumericDown /></button></th>
+                            <th>F%<button type="button" class="btn btn-default" onClick={this.byFp}><SortNumericDown /></button></th>
+                            <th>SB<button type="button" class="btn btn-default" onClick={this.bySB}><SortNumericDown /></button></th>
+                            <th>CS<button type="button" class="btn btn-default" onClick={this.byCS}><SortNumericDown /></button></th>
+                            <th>SB%<button type="button" class="btn btn-default" onClick={this.bySBP}><SortNumericDown /></button></th>
                         </tr>
                     </thead>
                     <tbody>
