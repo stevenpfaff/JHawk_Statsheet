@@ -9,6 +9,7 @@ import AddGame from './components/Schedule/AddGame'
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import AddTourneyGame from './components/Tournaments/AddTourneyGame';
+import LeaguePlayers from './components/Players/LeaguePlayers';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/Tournaments" exact component={Tourneys} />
       <Route path="/" exact component={Schedule} />
       <Route path="/Players" exact component={Players} />
+      <Route path="/LeaguePlayers" exact component={LeaguePlayers} />
       <Route path="/Team" exact component={Team} />
       <Route path="/AddGame" exact component={AddGame} />
       <Route path="/AddTourneyGame" exact component={AddTourneyGame} />

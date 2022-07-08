@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Table } from 'react-bootstrap'
 import { SortNumericDown } from 'react-bootstrap-icons'
 
-class Players extends Component {
+class LeaguePlayers extends Component {
     constructor(props) {
         super(props);
         this.state = { player: [] }
@@ -23,7 +23,7 @@ class Players extends Component {
     }
 
     refreshList() {
-        fetch(process.env.REACT_APP_API + 'player')
+        fetch(process.env.REACT_APP_API + 'leagueplayers')
             .then(response => response.json())
             .then(data => {
                 this.setState({ player: data })
@@ -33,7 +33,6 @@ class Players extends Component {
     componentDidMount() {
         this.refreshList();
     }
-
     byGames() {
         let games = this.state.player.sort((a, b) => {
             return b.GP - a.GP;
@@ -86,7 +85,7 @@ class Players extends Component {
 
     byAvg() {
         let avg = this.state.player.sort((a, b) => {
-            return b.AVG - a.AVG;
+            return b.batavg - a.batavg;
         });
 
         this.setState({
@@ -174,14 +173,11 @@ class Players extends Component {
         });
     }
 
-
-
-
     render() {
         return (
             <div style={{ marginRight: "25%", marginLeft: "25%", marginBottom: "10%" }} >
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Total Batting Stats</h1>
+                <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>League Batting Stats</h1>
                 <Table striped bordered hover>
                     <thead>
                         <tr>
@@ -205,11 +201,11 @@ class Players extends Component {
                     <tbody>
                         {this.state.player.map((player) => (
                             <tr key={player.Id}>
-                                <td>{player.Name}</td>
+                                <td>{player.PlayerName}</td>
                                 <td>{player.GP}</td>
                                 <td>{player.AB}</td>
                                 <td>{player.H}</td>
-                                <td>{player.AVG}</td>
+                                <td>{player.batavg}</td>
                                 <td>{player.R}</td>
                                 <td>{player.RBI}</td>
                                 <td>{player.BB}</td>
@@ -224,7 +220,7 @@ class Players extends Component {
                         ))}
                     </tbody>
                 </Table>
-                <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Total Pitching Stats</h1>
+                <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>League Pitching Stats</h1>
                 <Table striped bordered hover>
                     <thead>
                         <tr>
@@ -234,8 +230,6 @@ class Players extends Component {
                             <th>BB</th>
                             <th>K</th>
                             <th>WHIP</th>
-                            <th>B</th>
-                            <th>S</th>
                             <th>PT</th>
                             <th>FIP</th>
                         </tr>
@@ -243,47 +237,14 @@ class Players extends Component {
                     <tbody>
                         {this.state.player.map((player) => (
                             <tr key={player.Id}>
-                                <td>{player.Name}</td>
-                                <td>{player.IP}</td>
+                                <td>{player.PlayerName}</td>
+                                <td>{player.LIP}</td>
                                 <td>{player.ERA}</td>
                                 <td>{player.Walks}</td>
                                 <td>{player.Strikeouts}</td>
                                 <td>{player.WHIP}</td>
-                                <td>{player.BALL}</td>
-                                <td>{player.STRK}</td>
                                 <td>{player.PT}</td>
                                 <td>{player.FIP}</td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </Table>
-                <h1 style={{ marginRight: "10%", marginLeft: "10%", marginBottom: "5%", marginTop: "5%", fontFamily: "inherit" }}>Fielding & Baserunning Stats</h1>
-                <Table striped bordered hover>
-                    <thead>
-                        <tr>
-                            <th>Player</th>
-                            <th>PO</th>
-                            <th>A</th>
-                            <th>E</th>
-                            <th>CS</th>
-                            <th>F%</th>
-                            <th>SB</th>
-                            <th>CS</th>
-                            <th>SB%</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {this.state.player.map((player) => (
-                            <tr key={player.Id}>
-                                <td>{player.Name}</td>
-                                <td>{player.PO}</td>
-                                <td>{player.A}</td>
-                                <td>{player.E}</td>
-                                <td>{player.CCS}</td>
-                                <td>{player.FP}%</td>
-                                <td>{player.SB}</td>
-                                <td>{player.CS}</td>
-                                <td>{player.SBP}%</td>
                             </tr>
                         ))}
                     </tbody>
@@ -292,4 +253,4 @@ class Players extends Component {
         )
     }
 }
-export default Players;
+export default LeaguePlayers;
